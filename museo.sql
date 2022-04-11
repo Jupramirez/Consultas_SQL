@@ -56,24 +56,6 @@ insert into obra values(112, 'Ultima cena', 'pintura',
 800, 1003);
 insert into obra values(113, 'Hombre vitruvio', 'boceto',
 400, 1003);
-insert into obra values(114, 'Planos', 'planos', 200,
-1003);
-insert into obra values(200, 'Fornarina', 'pintura', 400,
-1004);
-insert into obra values(201, 'David', 'escultura', 700,
-1004);
-insert into obra values( 202, 'Nacimiento de Venus',
-'pintura', 250, 1004);
-insert into obra values(300, 'Violin and candless',
-'pintura', 300, 1005);
-insert into obra values(301, 'Les demoiselles',
-'pintura', 350, 1005);
-insert into obra values(302, 'Cabeza de mujer',
-'escultura', 300, 1005);
-insert into obra values(400, 'Autoretrato', 'pintura',
-100, 1006);
-insert into obra values(401, 'La parade', 'pintura', 300,
-1006);
 insert into obra values(402, 'Solei levant', 'pintura',
 300, 1006);
 
@@ -89,45 +71,8 @@ insert into presentacion (pre_fecha, obr_id, mus_id)
 values('May-sept-2013', 201, 101);
 insert into presentacion (pre_fecha, obr_id, mus_id)
 values( 'Oct-dic-2013', 113, 101);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Ene-jul-2013', 300, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Ene-jul-2013', 301, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Abr-jun-2013', 113, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values( 'Sept-2013', 113, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values( 'Abr-jun-2013', 112, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Sept-2013', 112, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values( 'Ene-abr-2013', 202, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Ene-abr-2013', 201, 102);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values( 'Julio 2013', 113, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Julio 2013', 114, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Mar-jun-2013', 401, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Mar-jun-2013', 402, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Oct-dic-2013', 301, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Oct-dic-2013', 302, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Oct-dic-2013', 200, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Oct-dic-2013', 202, 203);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Ago-nov-2013', 402, 304);insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Ago-nov-2013', 400, 304);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Jul-ago-2013', 114, 304);
-insert into presentacion (pre_fecha, obr_id, mus_id)
-values('Jul-ago-2013', 111, 304);
+
+
 
 
 insert into obra (obr_id, obr_nombre, obr_tipo, exp_id)
